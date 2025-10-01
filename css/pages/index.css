@@ -1,15 +1,25 @@
+#temporary-container {
+    color: var(--color-primary);
+    text-align: center;
+}
+
 #temporary-text {
     width: 48rem;
-    text-align: center;
     padding-top: 6rem;
-    margin-bottom: 4rem;
-    color: var(--color-primary);
+    margin-bottom: var(--space-xl);
 }
 
 #temporary-message {
-    text-align: center;
-    color: var(--color-primary);
     font-size: 4rem;
+    margin-bottom: var(--space-xl);
+}
+
+#temporary-list {
+    list-style: none;
+}
+
+#temporary-list li a {
+    text-decoration: underline;
 }
 
 @media (max-width: 800px) {
