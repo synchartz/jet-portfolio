@@ -9,6 +9,7 @@
 #temporary-message {
     text-align: center;
     color: var(--color-primary);
+    font-size: 4rem;
 }
 
 @media (max-width: 800px) {
