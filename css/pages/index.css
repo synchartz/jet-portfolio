@@ -3,10 +3,12 @@
     text-align: center;
     padding-top: 6rem;
     margin-bottom: 4rem;
+    color: var(--color-primary);
 }
 
 #temporary-message {
     text-align: center;
+    color: var(--color-primary);
 }
 
 @media (max-width: 800px) {

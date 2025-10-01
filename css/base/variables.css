@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #fff;
+    --color-primary: #2c39df;
     --color-secondary: #fff;
     --color-text: #2c2d32;
 
     --font-base: 'Inter', sans-serif;
-    --font-heading: url("../../assets/fonts/Thunder-BlackLC.ttf"), sans-serif;
+    --font-heading: 'Thunder-BlackLC', sans-serif;
 
     --fs-xs: 0.75rem;
     --fs-sm: 0.875rem;
