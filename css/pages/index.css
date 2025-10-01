@@ -1,0 +1,16 @@
+#temporary-text {
+    width: 48rem;
+    text-align: center;
+    padding-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+#temporary-message {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    #temporary-text {
+        width: auto;
+    }
+}

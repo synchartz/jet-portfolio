@@ -1,0 +1,17 @@
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.flex-colr { flex-direction: column-reverse }
+.flex-rowr { flex-direction: row-reverse ;}
+.flex-center { display: flex; justify-content: center; align-items: center; }
+.flex-evenly { display: flex; justify-content: space-evenly; align-items: center; }
+
+.grid { display: grid; gap: var(--space-md); }
+
+.m-0 { margin: 0; }
+.mt-md { margin-top: var(--space-md); }
+.mb-md { margin-bottom: var(--space-md); }
+.p-md { padding: var(--space-md); }
+
+.text-center { text-align: center; }
+.text-lowercas { text-transform: lowercase; }
+.text-uppercase { text-transform: uppercase; }

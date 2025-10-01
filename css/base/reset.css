@@ -1,0 +1,45 @@
+/* Basic Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+button, select {
+    font: inherit;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: var(--space-md);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+textarea {
+    resize: none;
+}
+
+.container {
+    padding: 1rem 4rem;
+}
+
+@media (max-width: 800px) {
+    .container {
+        padding: 1rem;
+    }
+}
